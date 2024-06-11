@@ -1,0 +1,34 @@
+ul{
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bolder;
+}
+li{
+    display: inline-block;
+    margin-right: 50px;
+}
+nav{
+    text-align: center;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+header{
+    width: 100%;
+    background: grey;
+    padding: 20px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+
+
+}

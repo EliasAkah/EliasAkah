@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>customer details</title>
+        <style>
+        body{
+            text-align: center;
+            margin-top: 2%;
+            background: black;
+            
+        }
+
+        input{
+            margin-bottom: 8%;
+        }
+
+        label{
+            color: white;
+            text-transform: uppercase
+        }
+
+        textarea{
+            background: white;
+        }
+        form{
+            background: blue;
+            padding: 2% 2%;
+            display: inline-block;
+            text-align: left;
+            margin-top: 3%;
+            
+        }
+
+        .login{
+             margin: 2%; 
+             height: 30px; 
+             width: 58px;
+             background: white;
+             color: black;
+             line-height: 30px;
+             padding: 3px 5px;
+             border-radius: 25px;
+             text-align: center;
+             text-decoration: none
+        }
+        h2{
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            margin: 0;
+        }
+
+        textarea{
+            margin-bottom: 8%;
+        }
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+        }
+    
+        ul {
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+            text-align: center;
+        }
+    
+        li {
+            display: inline-block;
+            margin-right: 2%;
+            margin-left: 2%;
+            text-align: center;
+    
+        }
+    
+    
+        li>a {
+            text-decoration: none;
+            list-style-type: none;
+            font-size: 20px;
+            text-align: center;
+    
+        }
+    
+        header {
+            width: 100%;
+            margin-bottom: 2%;;
+            padding: 0;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href="home.html">home</a></li>|
+                <li><a href="product.html">product</a></li>|
+                <li><a href="about.html">about</a></li>|
+                <li><a href="contact.html">contact</a></li>|
+                <li><a href="login.html">login</a></li>|
+            </ul>
+        </header>
+        <form>
+            <h2>login</h2>
+
+            <label for="name" style="display: block;">name:</label>
+            <input type="text" id="name" placeholder="enter your name">
+
+            <label for="password" style="display: block;">password:</label>
+            <input type="password" id="email" placeholder="************">
+
+            <label for="messages" id="mssg" style="display: block;">messages:</label>
+            <textarea id="messages" name="messages" row="4" required></textarea>
+
+            <div>
+                <a href="home.html" class="login">submit</a>
+                <a href="home.html" class="login">reset</a>
+            </div>
+
+        </form>
+    </body>
+</html>
